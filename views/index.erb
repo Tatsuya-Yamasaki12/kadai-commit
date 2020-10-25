@@ -7,7 +7,8 @@
     
     <body>
         <h1>おみくじ</h1>
-        <p>おみくじ結果:なし</p>
+        <% result = "ありません" %>
+        <p>おみくじ結果:<%= result %></p>
         <form action ="/" method ="POST">
             <button type="submit" name="act" value="draw">おみくじを引く</button>
         </form>
